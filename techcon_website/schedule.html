@@ -2,13 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule for TechCon 2024</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content styling */
+        main {
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
 
 <header>
     <h1>Schedule for TechCon 2024</h1>
-    <nav>
+    <nav aria-label="Main Navigation">
         <a href="index.html">Home</a> |
         <a href="about.html">About</a> |
         <a href="register.html">Register</a> |
@@ -17,38 +84,42 @@
 </header>
 
 <main>
-    <table border="1">
+    <table>
         <caption>Detailed Schedule of Events for TechCon 2024</caption>
-        <tr>
-            <th scope="col">Time</th>
-            <th scope="col">Session</th>
-            <th scope="col">Speaker</th>
-        </tr>
-        <tr>
-            <td>9:00 AM</td>
-            <td>Opening Keynote</td>
-            <td>Dr. Sarah Ofori</td>
-        </tr>
-        <tr>
-            <td>11:00 AM</td>
-            <td>Future of AI</td>
-            <td>Kwame Mensah</td>
-        </tr>
-        <tr>
-            <td>2:00 PM</td>
-            <td>Cybersecurity Trends</td>
-            <td>Linda Boateng</td>
-        </tr>
-        <tr>
-            <td>4:00 PM</td>
-            <td>Closing Remarks</td>
-            <td>Prof. Ama Agyapong</td>
-        </tr>
+        <thead>
+            <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Session</th>
+                <th scope="col">Speaker</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Opening Keynote</td>
+                <td>Dr. Sarah Ofori</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Future of AI</td>
+                <td>Kwame Mensah</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>Cybersecurity Trends</td>
+                <td>Linda Boateng</td>
+            </tr>
+            <tr>
+                <td>4:00 PM</td>
+                <td>Closing Remarks</td>
+                <td>Prof. Ama Agyapong</td>
+            </tr>
+        </tbody>
     </table>
 </main>
 
 <footer>
-    <p>Copyright TechCon 2024. All rights reserved.</p>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
 </footer>
 
 </body>
